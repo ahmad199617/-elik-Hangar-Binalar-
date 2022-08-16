@@ -780,6 +780,52 @@
                             .FILTAR-div-IMG:hover img {content: url(./images/filter-SE.png);}
 
 
+                            /*****************FILTAR phone**********************/
+                            @media only screen and (max-width: 1000px) {
+                                .FILTAR-section {
+                                    width: 100%;
+                                    margin-top: 0; 
+                                    display: flex;
+                                    align-content: center;
+                                    justify-content: center;
+                                }
+                                .FILTAR-div-M {
+                                    width: 100%;
+                                    height: 40px;
+                                    outline-style: solid;
+                                    outline-width: 1px;
+                                    outline-color: #333;
+                                    display: flex;
+                                }
+                                .FILTAR-div-IMG {
+                                    width: 40px;
+                                    height: 40px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-content: center;
+                                    background-color: #1A4990;
+                                    overflow: hidden;
+                                    align-items: center;
+                                    cursor: pointer;
+                                }
+                                .FILTAR-div-F {
+                                    height: 100%;
+                                    border-style: solid;
+                                    border-width: 1px;
+                                    border-color: #333;
+                                    border-bottom-style: unset;
+                                    border-top-style: unset;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    background-color: rgb(255, 255, 255);
+                                }
+
+  
+                                }
+
+
 
                             
 
@@ -874,8 +920,44 @@
                         .text-n:hover {color: rgba(255, 255, 255, 1.0);}
 
 
+                        /*****************PRODUCTS phone**********************/
+                        @media only screen and (max-width: 1000px) {
+                            .PRODUCTS-section {
+                                margin-top: 25px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                            }
+                            .PRODUCTS-M-DIV {
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                            }
+                            .PRODUCTS-R {
+                                background-color: #1A4990;
+                                width: 25%;
+                            }
+                            .PRODUCTS-L {
+                                width: 75%;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .PRODUCTS-text-big p {
+                                font-size: 15px;
+                                font-family: "Bebas Neue", cursive;
+                                margin: 0px;
+                                color: rgb(26 73 144);
+                            }
+                            .text-n p{
+                                font-size: 12px;
+                                margin: 0;
 
+                            }
 
+                            }
 
 
 
