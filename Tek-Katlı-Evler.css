@@ -887,6 +887,7 @@
                             width: 49%;
                             background-color: aqua;
                             overflow: hidden;
+                            box-shadow: 0px 0px 15px #898989;
                         }
                         .PRODUCTS-img-big img {
                             width: 100%;
@@ -1541,4 +1542,4 @@
 
 
 
-            } 
+            }
